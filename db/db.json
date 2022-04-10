@@ -91,17 +91,6 @@
       "id": 1
     },
     {
-      "nome": "João Coelho",
-      "carne": "Maminha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Salame",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado",
-      "id": 4
-    },
-    {
       "nome": "Lucas Anjos dos Santos",
       "carne": "Maminha",
       "pao": "Italiano Branco",
@@ -109,7 +98,7 @@
         "Bacon",
         "Pepino"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 5
     },
     {
@@ -120,28 +109,63 @@
         "Bacon",
         "Pepino"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 6
     },
     {
-      "nome": "Tenis Nike 2.0",
+      "nome": "Rosca de Chocolate",
       "carne": "Picanha",
-      "pao": "3 Queijos",
+      "pao": "Parmesão e Orégano",
       "opcionais": [
         "Bacon",
+        "Cheddar",
+        "Salame",
         "Tomate",
-        "Cebola roxa"
+        "Cebola roxa",
+        "Pepino"
       ],
       "status": "Solicitado",
       "id": 7
     },
     {
-      "nome": "",
-      "carne": "",
-      "pao": "",
-      "opcionais": [],
+      "nome": "Tenis Nike 2.0",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Tomate"
+      ],
       "status": "Solicitado",
       "id": 8
+    },
+    {
+      "nome": "Tenis Nike 2.0",
+      "carne": "Maminha",
+      "pao": "3 Queijos",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 9
+    },
+    {
+      "nome": "Tenis Nike 2.0",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 10
+    },
+    {
+      "nome": "Lucas Anjos dos Santos",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Salame"
+      ],
+      "status": "Solicitado",
+      "id": 11
     }
   ]
 }
