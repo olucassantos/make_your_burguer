@@ -1,15 +1,34 @@
 <template>
-    <div class="message-container">
-        <p v-html="msg"></p>
+    <div v-show="message" class="message-container">
+        <p v-html="message"></p>
     </div>
 </template>
 
 <script>
 export default {
     name: "Message",
+    data(){
+        return{
+            message: null
+        }
+    },
     props: {
         msg: String
+    },
+    methods: {
+        clearMessage() {
+            setTimeout(() => {
+                this.message = ""
+            }, 3000);
+        }
+    },
+    watch: { 
+        msg: function(newVal, oldVal) { 
+            this.message = newVal;
+            this.clearMessage();
+        }
     }
+    
 }
 </script>
 

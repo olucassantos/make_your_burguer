@@ -87,7 +87,7 @@
         "Salame",
         "Cebola roxa"
       ],
-      "status": "Finalizado",
+      "status": "Em produção",
       "id": 1
     },
     {
@@ -98,7 +98,7 @@
         "Bacon",
         "Pepino"
       ],
-      "status": "Em produção",
+      "status": "Solicitado",
       "id": 5
     },
     {
@@ -109,7 +109,7 @@
         "Bacon",
         "Pepino"
       ],
-      "status": "Finalizado",
+      "status": "Em produção",
       "id": 6
     },
     {
@@ -135,7 +135,7 @@
         "Bacon",
         "Tomate"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 8
     },
     {
@@ -143,7 +143,7 @@
       "carne": "Maminha",
       "pao": "3 Queijos",
       "opcionais": [],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 9
     },
     {
@@ -164,7 +164,7 @@
         "Bacon",
         "Salame"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 11
     }
   ]

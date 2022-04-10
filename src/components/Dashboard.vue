@@ -81,10 +81,6 @@ export default {
 
             this.msg = `Pedido Nº ${id} removido do sistema`;
 
-            setTimeout(() => {
-                this.msg = "";
-            }, 3000);
-
             this.getPedidos();
         },
         async updateBurger(event, id){
@@ -103,9 +99,6 @@ export default {
             const res = await req.json();
 
             this.msg = `Pedido Nº ${res.id} foi atulizado para <b>${res.status}</b>`;
-            setTimeout(() => {
-                this.msg = "";
-            }, 3000);
         }
     }
 }
